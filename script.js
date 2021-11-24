@@ -99,7 +99,54 @@ console.log ( 60+15-56*4);
 
           */
 
+        //   Coding Challenge 1
+
+        
+  /*
           
+            const markmass = 78;
+            const markheight = 1.69 ;
+            const johnmass = 92 ;
+            const johnheight = 1.95 ;
+
+            const markBMI =  markmass / markheight ** 2 ;
+
+            const johnBMI =  johnmass / johnheight ** 2 ;
+ 
+             const compare = markBMI > johnBMI ;
+            console.log ( markBMI , johnBMI ,compare );
+            
+
+*/
+
+     //string
+
+    
+     /*
+     const name = "Amrit" ;
+      const job = ' student' ;
+      const Birthdate = '2002';
+      const year = ' 2021';
+
+      const game = `I'm ${name} , a ${ year - Birthdate} year old ${job} .`;
+      
+      console.log ( game);
+
+     const lame = ` Hello ${job} , How are You all . Especially ${name}`;
+
+          console.log ( lame);
+
+
+         console.log ( ` Just The random string ` ) ;
+         console.log ( ` Just The \n\
+          random \n\
+           string ` ) ;
+
+
+  */
+
+
+
 
 
 

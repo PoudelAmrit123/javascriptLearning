@@ -209,11 +209,45 @@ console.log ( 60+15-56*4);
  }
 
     */
-     
+
+
+    // Type Conversion 
+/*
+    const Birthyear = '1991';
+  console.log ( Number(Birthyear)); // Changing string to number using Number function but implies to only this type not in below line
+   
+    console.log ( Birthyear + 18);  // doesnot imply to this one 
+
+    // Type Coercion 
+
+    console.log ( 'I Am' +   23 + ' years Old')
+    ; // is same as writing this as an below line due to java script type coercion
+    console.log ( ' I Am ' + String(23) + ' years old');
+
+    let n= '1' + 1 ;
+     n=n-1 ;
+     console.log (n);
+
+        // First addtion sign make 1 behaves as the string so 1 + 1 = 11 and subtraction sign behaves made n behaves aS THER NUMBER so 11-1 = 10 
+
+        //+ = Number to the string
+        //- = string to the Number 
 
 
 
+     */
 
+
+          
+
+  // Truthy and Falsy Conversion
+
+      // zero(0) , '' , undefined , null , NaN are Falsy value and triger the false statement in the if else statement . Even though if we addign the value as 0 it also even consider this is an falsy statement i.e height =0 is also an falsy value even though it is assign as the value .
+      
+      
+      
+
+ 
 
 
 

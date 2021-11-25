@@ -247,7 +247,55 @@ console.log ( 60+15-56*4);
       
       
 
- 
+       // Equality Operator
+
+       /*
+       
+       const age=18;
+
+       if( age===18) console.log ( ' You Become an adult ( strict)');
+        
+        //  === Doesnot do type coercion 
+
+       if( age==18) console.log ( ' You Become an adult ( loose)');
+
+       //  ==  do type coercion 
+
+       // i.e
+
+       const ageold='18';
+
+       if( ageold===18) console.log ( ' You Become an adult ( strict)');
+        
+        //  === Doesnot do type coercion 
+
+       if( ageold==18) console.log ( ' You Become an adult ( loose)');
+
+          //  === Does type coercion 
+
+
+          const favourite = Number( prompt(" Whats your Number "));
+          console.log(favourite);
+          console.log ( typeof favourite );
+
+         
+          
+          if(favourite===23){
+            console.log(' Cool! Thats the good number ');
+          }
+          else if( favourite == 15) {
+            console.log ( ' 15! is not a cool number ');
+          }
+          else {
+            console.log ( ` ${favourite} ! is the cool Number.
+   `  )
+          }
+
+    
+           */
+
+
+
 
 
 

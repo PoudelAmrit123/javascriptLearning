@@ -147,6 +147,7 @@ console.log ( 60+15-56*4);
 
         //    if Else statement 
 
+          /*
         
         const age = 14 ;
 
@@ -179,6 +180,36 @@ console.log ( 60+15-56*4);
 
 
 
+              */
+
+
+      //  coding Challenge 2
+
+
+        /*  
+
+
+   const markmass = 78;
+   const markheight = 1.69 ;
+   const johnmass = 92 ;
+   const johnheight = 1.95 ;
+
+   const markBMI =  markmass / markheight ** 2 ;
+
+   const johnBMI =  johnmass / johnheight ** 2 ;
+
+    console.log ( markBMI , johnBMI);
+ if ( markBMI > johnBMI){
+   console.log (`  MArk BMI (${markBMI}) is Higher than John BMI (${johnBMI}).
+   `  );
+ }
+ else {
+   console.log ( ` JOhn BMI (${johnBMI} )is Higher Than Mark  ( ${markBMI} )
+   `  );
+ }
+
+    */
+     
 
 
 

@@ -145,6 +145,37 @@ console.log ( 60+15-56*4);
 
   */
 
+        //    if Else statement 
+
+        
+        const age = 14 ;
+
+        if ( age >= 18) {
+          console.log ( " Sarah can drive .");
+          
+        }
+  else {
+  const  rage = 18- age ;
+  console.log ( ` srah is to young , She can drive after ${rage} year .
+   ` );
+
+  }
+
+
+   const birthdate = 1998;
+   let century;
+
+   if ( birthdate <=2000){
+      century =19;
+
+   }
+   else {
+     century=20;
+   }
+
+   console.log (` ${century}th Century
+   `  );
+
 
 
 

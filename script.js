@@ -335,8 +335,66 @@ console.log ( 60+15-56*4);
   */
 
 
+        // switch Statement 
 
-   
+
+         /*
+  const day = 'Thrusday'
+
+    switch (day){
+
+          case 'Sunday' :
+            console.log(' This day is Sunday' );
+  console.log (' Sunday! is amazing');
+  break;
+   case 'Monday' :
+     console.log (' This day is Monday');
+         break;
+
+         case 'Tuesday' :
+           console.log (' Tuesday is Boring');
+           break;
+
+   case 'Thrusday' :
+     console.log (' Thrusday is Whatsoever');
+     break;
+
+
+     }
+
+   */
+
+
+      /*
+     const day = 'odd'
+
+      switch (day) {
+      
+           case 'even' :
+             console.log ( ' Even is Even number');
+             break ;
+
+             case 'odd' :
+               console.log ( ' Odd is the odd number ');
+               break ;
+
+               default :
+               console.log ( ' Not even odd or even');
+
+      }
+
+*/
+
+  // ternery opertor 
+  // Example of the ternery operator
+
+  /*
+   const age = 15 ;
+
+   const drink = age >= 18 ? 'Wine ' : 'daru' ;
+ console.log( drink);
+
+    */
 
 
 

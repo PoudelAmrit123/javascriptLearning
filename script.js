@@ -292,11 +292,51 @@ console.log ( 60+15-56*4);
           }
 
     
-           */
+   */
 
 
 
+          //logical operator
 
+     
+       /*
+          const is18years = true;
+          const hasgoodvision = true;
+
+          console.log ( is18years &&  hasgoodvision);
+
+          console.log ( hasgoodvision || is18years);
+
+
+  console.log ( !is18years);
+ 
+   */
+
+    
+  
+  // challenge No 3
+  
+    /* 
+  const kolas = ( 88 + 91 + 110) / 3 ;
+  const dolphin = (96 + 108 + 89 ) / 3 ;
+
+  console.log ( kolas , dolphin);
+
+  if ( kolas > dolphin) {
+    console.log ( ' Kolas won the Trophy');
+
+  } else if ( kolas < dolphin ) {
+    console.log ( ' Dolphin Won the Trophy');
+  } else if ( kolas === dolphin){
+    console.log ( ' The game is Draw');
+
+  }
+
+  */
+
+
+
+   
 
 
 

@@ -8,6 +8,7 @@ console.log ( 60+15-56*4);
  let Name = "Amu1";
  console.log( "js");
  
+ 
  console.log (Name);        
  console.log (Name);
  console.log (Name);

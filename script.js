@@ -398,4 +398,18 @@ console.log ( 60+15-56*4);
     */
 
 
+   // coding challenge 4
+
+
+   /*
+   const bill = 240;
+  let total ;
+     const tip = bill<=300 && bill>=50 ?  0.15 * bill : 0.2 * bill;
+
+     total =bill + tip ;
+     console.log (` The bill was ${bill} , the tip was ${tip} and the final amount was ${total}
+     `  );
+
+     */
+
 

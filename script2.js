@@ -39,6 +39,26 @@ if (Hasdrive ) console.log (' You are eligiable');
     console.log ( greek('coc' ,'realme' ));
 
 
+//Functing calling other Function
+
+
+    function fruitcutting ( fruit){
+        return fruit * 4;
+    };
+
+    const FruitFcn = function appleorange (apples , orange){
+        const applepieces = fruitcutting(apples);
+        const orangepieces = fruitcutting (orange);
+
+        const ans =` There are ${applepieces} piece of apple and ${orangepieces} piece of orange  `;
+        return ans ;
+
+
+    }
+
+    console.log ( FruitFcn(2 , 3));
+
+
   
         
        

@@ -22,6 +22,23 @@ if (Hasdrive ) console.log (' You are eligiable');
 
         console.log ( ` OK so the birthyear is ${result} `);
 
+
+ //Arrow Function
+        //doesnot require Bracket and return value
+   
+
+        
+        const greek =() =>"Good Morning" ;
+    console.log(greek());
+
+        
+
+
+    const greek = (game , device ) => "I play " + game + " in " + device  + " device";
+
+    console.log ( greek('coc' ,'realme' ));
+
+
   
         
        

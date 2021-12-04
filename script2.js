@@ -126,6 +126,25 @@ if (Hasdrive ) console.log (' You are eligiable');
 
        
 
+  //Basic Arry Operator
+
+
+const friends = [ 'Harry' , 'Jonas ' , 'simly' ,  'geey'];
+ friends.push('subedi');//push in arry
+console.log(friends);
+
+
+friends.unshift ('Kafle');//psuh but in first element
+
+console.log (friends);
+
+friends.pop(); // remove last arry element
+console.log(friends);
+
+friends.shift(); // remove first arry element
+console.log(friends);
+
+console.log( friends.indexOf('Harry'));// finding the postion of the element from the arry
 
 
 

@@ -88,6 +88,42 @@ if (Hasdrive ) console.log (' You are eligiable');
 
 
         
+
+    
+  // Basic Arry
+
+  const friends = [ 'Harry' , 'Jonas ' , 'simly' ,  'geey'];
+  console.log(friends);
+
+  console.log(friends[0]);
+  console.log(friends[2]);
+ console.log ( friends.length);
+ console.log ( friends[friends.length-1]);
+
+
+   friends[1] ='Amrit';
+   console.log( friends);
+
+
+    const firstname = ' amrit';
+    const amu = [firstname , 'poudel ' , 1300-300  , friends];
+
+    console.log(amu);
+
+
+    const agecalc = function ( birthyear){
+
+        return 2021 -birthyear ;
+    }
+    const years = [1990 , 1995 , 2000 , 2005];
+
+      const age1 = agecalc(years[0]);
+      const age2 = agecalc(years[1]);
+      const age3 = agecalc(years[years.length-1]);
+
+      console.log(age1 , age2 , age3);
+ 
+
        
 
 

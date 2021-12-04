@@ -60,6 +60,32 @@ if (Hasdrive ) console.log (' You are eligiable');
 
 
   
+    //challenge no   4
+
+
+    const calcavg = (a,b,c) => (a+ b + c)/3 ;
+    
+    const scoredolphins = calcavg(41 , 23 , 71);
+    const scorekoals = calcavg(65 , 54 , 59);
+    
+    const checkwinner = function ( avgdolphin , avgkoals ){
+
+          if ( avgdolphin >= 2*avgkoals){
+              console.log(`   Dolphins win the trophy  (${avgdolphin} vs.  ${avgkoals} )`);
+
+          } else if ( avgkoals >= 2*avgdolphin){
+            console.log(` Koalas win the trophy  (${avgkolas} vs.  ${avgdolphin} )`);
+
+        } else (
+            console.log ( 'No one won the trophy ')
+        )
+
+
+    }
+    checkwinner(scoredolphins ,scorekoals );
+
+
+
 
         
        

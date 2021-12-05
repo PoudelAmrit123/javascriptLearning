@@ -150,3 +150,4 @@ console.log( friends.indexOf('Harry'));// finding the postion of the element fro
 
 
 
+

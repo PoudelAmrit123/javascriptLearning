@@ -196,5 +196,28 @@ console.log (`${amrit.firstname} has ${amrit.Friends.length} friends and his bes
 
    
 
+ //Object Method
+
+const amrit = {
+    firstname: 'amrit' ,
+    lastname : 'poudel' ,
+    age :'20',
+    birthyear :  1991 , 
+    job : ' Student' ,
+    Friends : [ 'Subedi' , 'Ashwin' , 'Joshi'] , 
+    calcage : function (birthyear){
+        console.log(this);
+        return 2021- this.birthyear;
+    }
+};
+
+ console.log(amrit.calcage());
+//  console.log(amrit.calcage(1991));
+//  console.log(amrit['calcage'](1991));
+console.log (amrit.firstname);
+
+
+   
+
 
 

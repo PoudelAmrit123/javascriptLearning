@@ -217,7 +217,47 @@ const amrit = {
 console.log (amrit.firstname);
 
 
+   // Coding Challenge 4
+
+
+   const mark = {
+
+    firstname : 'mark' ,
+    lastname : ' Miller' , 
+    mass : 90 , 
+    height : 1.69 ,
+    calcbmi : function (){
+        this.bmi = this.mass / this.height **2;
+        return this.bmi ;
+    }
+   };
+
+      const john = {
+
+    firstname : 'John' ,
+    lastname : ' Dolphins' , 
+    mass : 180 , 
+    height : 1.69 ,
+    calcbmi : function (){
+        this.bmi = this.mass / this.height **2;
+        return this.bmi ;
+    }
+   };
    
+       mark.calcbmi();
+       john.calcbmi();
+
+       console.log(mark.bmi , john.bmi);
+
+       if(mark.bmi>john.bmi){
+           console.log(`${mark.firstname} ${mark.lastname} (${mark.bmi}) bmi is higher than john `);
+
+       }
+       else{
+        console.log(`${john.firstname} ${john.lastname} (${john.bmi}) bmi is higher than mark `);
+       }
+
+  
 
 
 

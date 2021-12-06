@@ -162,6 +162,38 @@ const bills = [225 , 555 , 44];
 const totals = [ bills[0] + tips[0] , bills[1] + [2] + tips[2] ];tips[1]  , bills
 
    console.log ( bills , tips , totals);
+
+
+
+
+// Introduction to object
+
+  const amrit = {
+      firstname: 'Amrit' , 
+      lastname : 'Poudel' ,
+      age :'20',
+      job : ' Student' ,
+      Friends : [ 'Subedi' , 'Ashwin' , 'Joshi'] , 
+
+
+  }
+  
+
+
+ console.log (amrit.lastname);
+ console.log(amrit.age);
+     
+
+ console.log(amrit['lastname']);
+ console.log(amrit['age']);
+
+//  const interested1 = prompt('Choose Between Job first and last name  , age');
+
+//  console.log(amrit[interested1]);
+
+  // simple Challenge
+console.log (`${amrit.firstname} has ${amrit.Friends.length} friends and his best friend is ${amrit.Friends[0]} .`);
+
    
 
 

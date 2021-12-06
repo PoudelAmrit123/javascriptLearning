@@ -296,6 +296,25 @@ console.log ( types);
        console.log (birthdate);
 
        
+   //  BAckward in loop
+
+       const amrit = [
+        'Amrit' ,
+        'Poudel' ,
+       '20',
+        ' Student' ,
+        [ 'Subedi' , 'Ashwin' , 'Joshi'] 
+        ];
+
+
+        for ( let i= amrit.length-1 ; i>=0 ; i--){
+
+            console.log(amrit[i]);
+        };
+
+        
+
+
 
 
 

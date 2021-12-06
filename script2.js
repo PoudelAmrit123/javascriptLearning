@@ -259,5 +259,44 @@ console.log (amrit.firstname);
 
   
 
+           // Control Structures (LOOP)
+
+           for ( let  i=1 ; i <=2 ; i++){
+               console.log(` Lest Repite it for ${i} times `);
+           }  //simple Loop structure
+ 
+
+           const amrit = [
+           'Amrit' ,
+           'Poudel' ,
+          '20',
+           ' Student' ,
+           [ 'Subedi' , 'Ashwin' , 'Joshi'] 
+           ];
+
+             const types = [] ;
+
+        for  ( let i=0 ; i<=amrit.length; i++){
+           console.log(amrit[i]);
+
+             types[i] = typeof amrit[i]; //filling the types arry from jonas
+       }
+console.log ( types);
+
+
+      const ages = [ 1990 , 2004 , 2015 , 2012];
+
+    const birthdate = [];
+
+      for ( let i=0 ; i<ages.length ; i++) {
+          birthdate.push( 2021-ages[i]);
+
+      } 
+
+       console.log (birthdate);
+
+       
+
+
 
 

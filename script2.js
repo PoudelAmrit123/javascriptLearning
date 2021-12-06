@@ -314,6 +314,31 @@ console.log ( types);
 
         
 
+//Coding Challenge 4 last
+
+
+         const calctip = function (bill){
+
+            return bill >= 50 && bill <= 300 ? bill *.15 : bill * .20 ;
+
+         }
+      
+  const bills = [ 75 , 80 , 120 , 340 , 95];
+  const tips = []        ;
+  const total = [];
+
+      for ( let i= 0 ; i <= bills.length ; i++){
+
+               const tip = calctip(bills[i]);
+
+               tips.push(tip);
+               total.push(tip + bills[i]);
+
+      };
+      console.log(bills , tips , total);
+
+      
+
 
 
 

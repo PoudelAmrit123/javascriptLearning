@@ -337,6 +337,31 @@ console.log ( types);
       };
       console.log(bills , tips , total);
 
+
+// Developer Tolls 
+  // Coding challenge based on simple develloper skill
+
+   
+const arry=[ 17 , 21 ,23];
+// const testdata2 = [ 12 , 5 , -5 ,0 , 4];
+
+const printforcast = function (temp)  {
+
+    let str ='';
+            for( let i=1 ; i< arry.length ; i++){
+    console.log(`  ... ${arry[0]}ded C in 1 days  days ... ${arry[1]}ded C in 1 days ...  2days ...${arry[2]}ded C in 1 days ...  `);
+
+  str = str + ` ${arry[i]} `  ;
+
+
+  }
+   console.log(str);
+      
+  }
+
+
+ console.log(printforcast(arry));
+
       
 
 
